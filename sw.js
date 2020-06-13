@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-f3bf1364dc05c8cbbe96.js"
+    "url": "app-7c6e10f7245471a90c89.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "241f0acbc754e5ff9b34e5d93550f303"
+    "revision": "3c4c8d6401bc5d33d92c60f822e953f8"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c25716df4fbb2532700a.js"
@@ -57,7 +57,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "6a0d2e3667a0f0d975cbb5973ee7a32c"
+    "revision": "35432574d725a0f2b55b586d7b209b25"
   },
   {
     "url": "page-data/404.html/page-data.json",
@@ -75,15 +75,15 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/install-memcached/page-data.json",
-    "revision": "7c093e04f3db8b5cdd23e885114f8b0f"
+    "revision": "a21ed653ed083fd06a6c8c7ed6a5f6d6"
   },
   {
     "url": "page-data/install-yarn/page-data.json",
-    "revision": "59e17a75804298121434e397ff50fb1b"
+    "revision": "84f066a9ea161732a5a57641baeefbb8"
   },
   {
     "url": "page-data/run-playbook/page-data.json",
-    "revision": "f688332524ec8b49c9255014d5708ca9"
+    "revision": "96f7a204e52eaa61a96ae2d40b36eea3"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-f56aeeb1835e62f266c0.js"
@@ -219,7 +219,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-f3bf1364dc05c8cbbe96.js`))) {
+  if (!resources || !(await caches.match(`/app-7c6e10f7245471a90c89.js`))) {
     return await fetch(event.request)
   }
 
