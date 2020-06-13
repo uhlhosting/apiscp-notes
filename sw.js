@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-dc8f9e207d17aab0bab6.js"
+    "url": "app-48107f27d51668759994.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "660467659313045d87e4b642134fe73e"
+    "revision": "bb3e7d06e43c13ac0b44a140144a219b"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c25716df4fbb2532700a.js"
@@ -51,7 +51,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "68fb4d9e87b3937f6f0508ad8b4ee20a"
+    "revision": "51ea2786aca8e836339502920b344277"
   },
   {
     "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-827376c7670a374c8f8e.js"
@@ -79,15 +79,15 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/install-memcached/page-data.json",
-    "revision": "711f166d20a104da5716fb84e2ae54cf"
+    "revision": "7c093e04f3db8b5cdd23e885114f8b0f"
   },
   {
     "url": "page-data/install-yarn/page-data.json",
-    "revision": "c72497f56e34da3c44c57ef801925af3"
+    "revision": "59e17a75804298121434e397ff50fb1b"
   },
   {
     "url": "page-data/run-playbook/page-data.json",
-    "revision": "7df1dbe4cbcb3e04a70221a630b40327"
+    "revision": "f688332524ec8b49c9255014d5708ca9"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-f56aeeb1835e62f266c0.js"
@@ -130,7 +130,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "b409dbc5e1d97179d1d933137ac23722"
+    "revision": "f22267437235f774e52c0a8fce6b6df6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -223,7 +223,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/apiscp-notes/app-dc8f9e207d17aab0bab6.js`))) {
+  if (!resources || !(await caches.match(`/apiscp-notes/app-48107f27d51668759994.js`))) {
     return await fetch(event.request)
   }
 
