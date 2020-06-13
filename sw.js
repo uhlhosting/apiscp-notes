@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-2f51f0172a78389a4996.js"
+    "url": "app-dc8f9e207d17aab0bab6.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "24178148271934b38ce9e520df89af4f"
+    "revision": "660467659313045d87e4b642134fe73e"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c25716df4fbb2532700a.js"
@@ -51,7 +51,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "7c4fbd4e321a5a0ffcce912a4b06567e"
+    "revision": "68fb4d9e87b3937f6f0508ad8b4ee20a"
   },
   {
     "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-827376c7670a374c8f8e.js"
@@ -71,23 +71,62 @@ self.__precacheManifest = [
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-041d1560830ff86a7a3c.js"
   },
   {
-    "url": "page-data/apiscp-notes/page-data.json",
-    "revision": "26ee88de78fed3c3d2601e2a21a73208"
+    "url": "page-data/index/page-data.json",
+    "revision": "53425a74d7a4e30c112c894e2fc3a0e8"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-d542ffe08210a02628ba.js"
   },
   {
-    "url": "page-data/apiscp-notesinstall-memcached/page-data.json",
-    "revision": "2c5c3b2a27f55740ebe29b843724dcb5"
+    "url": "page-data/install-memcached/page-data.json",
+    "revision": "711f166d20a104da5716fb84e2ae54cf"
   },
   {
-    "url": "page-data/apiscp-notesinstall-yarn/page-data.json",
-    "revision": "5d2b6981d17dbba98fc13b844a62b595"
+    "url": "page-data/install-yarn/page-data.json",
+    "revision": "c72497f56e34da3c44c57ef801925af3"
   },
   {
-    "url": "page-data/apiscp-notesrun-playbook/page-data.json",
-    "revision": "c0919a8df0a773206962e9a21503f408"
+    "url": "page-data/run-playbook/page-data.json",
+    "revision": "7df1dbe4cbcb3e04a70221a630b40327"
+  },
+  {
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-f56aeeb1835e62f266c0.js"
+  },
+  {
+    "url": "page-data/tag/ansible/page-data.json",
+    "revision": "5ed31fb75712de90c5015e98a1e4aebb"
+  },
+  {
+    "url": "page-data/tag/bootstrapper/page-data.json",
+    "revision": "4ab18db5aa05df0b354b609b6787991f"
+  },
+  {
+    "url": "page-data/tag/cache/page-data.json",
+    "revision": "adc1b1595e7d361ebbf1c97bc6f09879"
+  },
+  {
+    "url": "page-data/tag/memcached/page-data.json",
+    "revision": "62973afa35ff769e2d8e66378d036039"
+  },
+  {
+    "url": "page-data/tag/node/page-data.json",
+    "revision": "2bba7a7ce83160f74f2bc11b4f99243e"
+  },
+  {
+    "url": "page-data/tag/nodejs/page-data.json",
+    "revision": "73b4dcf21f6257d32f766712764e77f4"
+  },
+  {
+    "url": "page-data/tag/optimizations/page-data.json",
+    "revision": "d4bd2010282d3a29892c975effa4faa8"
+  },
+  {
+    "url": "page-data/tag/playbook/page-data.json",
+    "revision": "3cb8b21a79f272a1a3428e09fde1fde9"
+  },
+  {
+    "url": "page-data/tag/yarn/page-data.json",
+    "revision": "7663c428d45f84be38a5bdacc22b63ab"
   },
   {
     "url": "manifest.webmanifest",
@@ -184,7 +223,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/apiscp-notes/app-2f51f0172a78389a4996.js`))) {
+  if (!resources || !(await caches.match(`/apiscp-notes/app-dc8f9e207d17aab0bab6.js`))) {
     return await fetch(event.request)
   }
 
