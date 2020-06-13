@@ -27,23 +27,26 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-7cd1abd5305cdc64ee86.js"
+    "url": "webpack-runtime-87d41f13f963db74c7a6.js"
   },
   {
-    "url": "framework-75da9754c2a76bbaf08a.js"
+    "url": "framework-20335242239071f73386.js"
+  },
+  {
+    "url": "29107295-9ea4360ea8ec8d33e511.js"
   },
   {
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-57e44c4e9fed88caa57c.js"
+    "url": "app-ef406f74a7abacfc637e.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "d8d4a3cd895c7a821cca644ae7cf2314"
+    "revision": "39067759b64f94f060128aab542f93b0"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c25716df4fbb2532700a.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-06e676c3cd7b78941a0b.js"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -51,13 +54,13 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "75d3ea0ae77060a37d3016a4502bc027"
+    "revision": "a12115e7f2e2fa1198f16592c990becd"
   },
   {
     "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-418d45585245cc44425a.js"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-8982e1a10749c85b6a7e.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-cca164f851d04e0d9e05.js"
   },
   {
     "url": "page-data/404/page-data.json",
@@ -68,14 +71,14 @@ self.__precacheManifest = [
     "revision": "097a0308fc1b1a1fc37e774650450f9f"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-d542ffe08210a02628ba.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-f80ebd36d827eeda99a6.js"
   },
   {
     "url": "page-data/create-wp-redis-instance/page-data.json",
     "revision": "151d0b2a4215ab71c91d37a49d2c1e27"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-041d1560830ff86a7a3c.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-b3520037b68af7768459.js"
   },
   {
     "url": "page-data/index/page-data.json",
@@ -94,7 +97,7 @@ self.__precacheManifest = [
     "revision": "64d9768c84256cd86eb5172c719706b4"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-f56aeeb1835e62f266c0.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-75fe09e4bcc3843df529.js"
   },
   {
     "url": "page-data/tag/ansible/page-data.json",
@@ -239,7 +242,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/apiscp-notes/app-57e44c4e9fed88caa57c.js`))) {
+  if (!resources || !(await caches.match(`/apiscp-notes/app-ef406f74a7abacfc637e.js`))) {
     return await fetch(event.request)
   }
 
