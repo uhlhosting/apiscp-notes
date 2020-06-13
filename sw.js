@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-e7e3e0cb3ff5f99c6158.js"
+    "url": "app-9dbb11401c11994c7799.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "21c737cfc1d1e04e18298b20055123fc"
+    "revision": "377776c072db559befaf205d039c612b"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c25716df4fbb2532700a.js"
@@ -57,7 +57,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "2542a332206313a5cc7dc7067120ea76"
+    "revision": "e9fa14eba46a98574d7ad111c16b56cb"
   },
   {
     "url": "page-data/404.html/page-data.json",
@@ -68,22 +68,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/apiscp-notes/page-data.json",
-    "revision": "26ee88de78fed3c3d2601e2a21a73208"
-  },
-  {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-d542ffe08210a02628ba.js"
-  },
-  {
-    "url": "page-data/apiscp-notesinstall-memcached/page-data.json",
-    "revision": "2c5c3b2a27f55740ebe29b843724dcb5"
-  },
-  {
-    "url": "page-data/apiscp-notesinstall-yarn/page-data.json",
-    "revision": "5d2b6981d17dbba98fc13b844a62b595"
-  },
-  {
-    "url": "page-data/apiscp-notesrun-playbook/page-data.json",
-    "revision": "c0919a8df0a773206962e9a21503f408"
+    "revision": "9a83bbd947253761d0185be4e3412f82"
   },
   {
     "url": "manifest.webmanifest",
@@ -180,7 +165,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-e7e3e0cb3ff5f99c6158.js`))) {
+  if (!resources || !(await caches.match(`/app-9dbb11401c11994c7799.js`))) {
     return await fetch(event.request)
   }
 
