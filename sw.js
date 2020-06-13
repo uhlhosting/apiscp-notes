@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-7c6e10f7245471a90c89.js"
+    "url": "app-e7e3e0cb3ff5f99c6158.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "3c4c8d6401bc5d33d92c60f822e953f8"
+    "revision": "21c737cfc1d1e04e18298b20055123fc"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c25716df4fbb2532700a.js"
@@ -57,7 +57,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "35432574d725a0f2b55b586d7b209b25"
+    "revision": "2542a332206313a5cc7dc7067120ea76"
   },
   {
     "url": "page-data/404.html/page-data.json",
@@ -67,62 +67,23 @@ self.__precacheManifest = [
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-041d1560830ff86a7a3c.js"
   },
   {
-    "url": "page-data/index/page-data.json",
-    "revision": "53425a74d7a4e30c112c894e2fc3a0e8"
+    "url": "page-data/apiscp-notes/page-data.json",
+    "revision": "26ee88de78fed3c3d2601e2a21a73208"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-d542ffe08210a02628ba.js"
   },
   {
-    "url": "page-data/install-memcached/page-data.json",
-    "revision": "a21ed653ed083fd06a6c8c7ed6a5f6d6"
+    "url": "page-data/apiscp-notesinstall-memcached/page-data.json",
+    "revision": "2c5c3b2a27f55740ebe29b843724dcb5"
   },
   {
-    "url": "page-data/install-yarn/page-data.json",
-    "revision": "84f066a9ea161732a5a57641baeefbb8"
+    "url": "page-data/apiscp-notesinstall-yarn/page-data.json",
+    "revision": "5d2b6981d17dbba98fc13b844a62b595"
   },
   {
-    "url": "page-data/run-playbook/page-data.json",
-    "revision": "96f7a204e52eaa61a96ae2d40b36eea3"
-  },
-  {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-f56aeeb1835e62f266c0.js"
-  },
-  {
-    "url": "page-data/tag/ansible/page-data.json",
-    "revision": "5ed31fb75712de90c5015e98a1e4aebb"
-  },
-  {
-    "url": "page-data/tag/bootstrapper/page-data.json",
-    "revision": "4ab18db5aa05df0b354b609b6787991f"
-  },
-  {
-    "url": "page-data/tag/cache/page-data.json",
-    "revision": "adc1b1595e7d361ebbf1c97bc6f09879"
-  },
-  {
-    "url": "page-data/tag/memcached/page-data.json",
-    "revision": "62973afa35ff769e2d8e66378d036039"
-  },
-  {
-    "url": "page-data/tag/node/page-data.json",
-    "revision": "2bba7a7ce83160f74f2bc11b4f99243e"
-  },
-  {
-    "url": "page-data/tag/nodejs/page-data.json",
-    "revision": "73b4dcf21f6257d32f766712764e77f4"
-  },
-  {
-    "url": "page-data/tag/optimizations/page-data.json",
-    "revision": "d4bd2010282d3a29892c975effa4faa8"
-  },
-  {
-    "url": "page-data/tag/playbook/page-data.json",
-    "revision": "3cb8b21a79f272a1a3428e09fde1fde9"
-  },
-  {
-    "url": "page-data/tag/yarn/page-data.json",
-    "revision": "7663c428d45f84be38a5bdacc22b63ab"
+    "url": "page-data/apiscp-notesrun-playbook/page-data.json",
+    "revision": "c0919a8df0a773206962e9a21503f408"
   },
   {
     "url": "manifest.webmanifest",
@@ -219,7 +180,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-7c6e10f7245471a90c89.js`))) {
+  if (!resources || !(await caches.match(`/app-e7e3e0cb3ff5f99c6158.js`))) {
     return await fetch(event.request)
   }
 
