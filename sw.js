@@ -39,11 +39,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-c4b99638928c865173c4.js"
+    "url": "app-47fa8313f9ca1305ce0e.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "e90154b65bec0416e16d81c61a499afb"
+    "revision": "82c0b02fbf8f721649cc76f67d851db1"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-06e676c3cd7b78941a0b.js"
@@ -54,7 +54,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "5513e5e2fa8b407c7022454ff1a4dc67"
+    "revision": "e0fae8e3d6ece3b42635666ca01d43a8"
   },
   {
     "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-48114360303fbb3aa350.js"
@@ -75,7 +75,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/create-wp-redis-instance/page-data.json",
-    "revision": "a091c05c2a13e74922ba23716ab74b55"
+    "revision": "2701b25ab204061f90a13efbe5d4d6c2"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-b3520037b68af7768459.js"
@@ -86,7 +86,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/install-memcached/page-data.json",
-    "revision": "4c92a02ab5d7aec53a81faeb33eb8189"
+    "revision": "f6d7c4f5cf9cad42c425e7abe4666e4f"
   },
   {
     "url": "page-data/install-php-pecl-modules/page-data.json",
@@ -254,7 +254,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/apiscp-notes/app-c4b99638928c865173c4.js`))) {
+  if (!resources || !(await caches.match(`/apiscp-notes/app-47fa8313f9ca1305ce0e.js`))) {
     return await fetch(event.request)
   }
 
