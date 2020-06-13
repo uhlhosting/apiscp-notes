@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-a279e1bf6f1f62ed4654.js"
+    "url": "webpack-runtime-c6ddbd8359c15a6b0bb0.js"
   },
   {
     "url": "framework-75da9754c2a76bbaf08a.js"
@@ -36,14 +36,22 @@ self.__precacheManifest = [
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-9dbb11401c11994c7799.js"
+    "url": "app-953326fefe9c4f7602c9.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "377776c072db559befaf205d039c612b"
+    "revision": "cc95e81df9704c7b838113f0a46d08dc"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c25716df4fbb2532700a.js"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "43232b01cc861c0701a3ece4bd67720b"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "7024d1682bdff222a2a41c81db980462"
   },
   {
     "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-827376c7670a374c8f8e.js"
@@ -54,10 +62,6 @@ self.__precacheManifest = [
   {
     "url": "page-data/404/page-data.json",
     "revision": "9f7e23dffed634bade188874f7c02852"
-  },
-  {
-    "url": "page-data/app-data.json",
-    "revision": "e9fa14eba46a98574d7ad111c16b56cb"
   },
   {
     "url": "page-data/404.html/page-data.json",
@@ -72,7 +76,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "7767dd9096c9f9865202c745809c70a6"
+    "revision": "b409dbc5e1d97179d1d933137ac23722"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -160,12 +164,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/apiscp-notes`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-9dbb11401c11994c7799.js`))) {
+  if (!resources || !(await caches.match(`/apiscp-notes/app-953326fefe9c4f7602c9.js`))) {
     return await fetch(event.request)
   }
 
@@ -178,7 +182,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/apiscp-notes/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
