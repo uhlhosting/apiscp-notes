@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-5a2feaef19b4de52ae13.js"
+    "url": "webpack-runtime-d4aa3beac6b95f5690fc.js"
   },
   {
     "url": "framework-20335242239071f73386.js"
@@ -39,11 +39,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-e29799322493dcf95be5.js"
+    "url": "app-58dc154adf3acbf297fa.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "5a170da3a10aa3e0a543a7e3274f6b0c"
+    "revision": "74ade51c53f67de15981def5cc177578"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-06e676c3cd7b78941a0b.js"
@@ -54,13 +54,13 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "81c0e7251e6b0a079c1f4aac3c10a8d7"
+    "revision": "17bb37e9fb391dbe2c9d2687998d8ad0"
   },
   {
-    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-fb3216f6ee05a0aff9a5.js"
+    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-8fe38229a9a2dec0d3df.js"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-0776de173bf2cb38972a.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-cca164f851d04e0d9e05.js"
   },
   {
     "url": "page-data/404/page-data.json",
@@ -71,7 +71,7 @@ self.__precacheManifest = [
     "revision": "097a0308fc1b1a1fc37e774650450f9f"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-8a05159c52c8fb6d0d24.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-791afeae18a12a5318d4.js"
   },
   {
     "url": "page-data/cloning-wp/page-data.json",
@@ -82,7 +82,7 @@ self.__precacheManifest = [
     "revision": "67ae1544d3ac4940c9253cdf44109c1f"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-14aa0e0e30e32c3b03bb.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-b3520037b68af7768459.js"
   },
   {
     "url": "page-data/index/page-data.json",
@@ -105,7 +105,7 @@ self.__precacheManifest = [
     "revision": "34a3c01333edfc5b1441b1b08747a4ee"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-a76c4b76ef49b29172c9.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-75fe09e4bcc3843df529.js"
   },
   {
     "url": "page-data/tag/ansible/page-data.json",
@@ -258,7 +258,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/apiscp-notes/app-e29799322493dcf95be5.js`))) {
+  if (!resources || !(await caches.match(`/apiscp-notes/app-58dc154adf3acbf297fa.js`))) {
     return await fetch(event.request)
   }
 
