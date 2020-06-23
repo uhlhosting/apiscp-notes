@@ -27,10 +27,19 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-f793659543724c7bba68.js"
+    "url": "webpack-runtime-3761b1fd4e3e9ba096e5.js"
   },
   {
-    "url": "framework-20335242239071f73386.js"
+    "url": "framework-9fe058f4359556db0d38.js"
+  },
+  {
+    "url": "d57d79ab-7c8246a08fbe2617b54f.js"
+  },
+  {
+    "url": "c322df3a-ced6e0ccc9168bbf79e6.js"
+  },
+  {
+    "url": "ff39441c-1e7d0a230315c3c69501.js"
   },
   {
     "url": "29107295-9ea4360ea8ec8d33e511.js"
@@ -39,14 +48,14 @@ self.__precacheManifest = [
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-03318f56c27ce6ab0ca2.js"
+    "url": "app-0f2cc873412082925d2a.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "41b7205e9cc71b25d778759acb4aa0e7"
+    "revision": "ab33d76a985354de8236d356729b695f"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-06e676c3cd7b78941a0b.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-3ecdc9640efe42acf30e.js"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -54,13 +63,13 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "49e8754e6678c624457dd36e2333ab78"
+    "revision": "4a356ace97d30649c3e0c7e22d945668"
   },
   {
-    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-b4f2e2025c06785a7053.js"
+    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-30b92da70ce0bfb7bdce.js"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-0776de173bf2cb38972a.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-d2eea123e5a5488fb7bc.js"
   },
   {
     "url": "page-data/404/page-data.json",
@@ -71,7 +80,7 @@ self.__precacheManifest = [
     "revision": "097a0308fc1b1a1fc37e774650450f9f"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-8a05159c52c8fb6d0d24.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-e905357807508dd4a39f.js"
   },
   {
     "url": "page-data/cloning-wp/page-data.json",
@@ -86,7 +95,7 @@ self.__precacheManifest = [
     "revision": "ab847413f8d06e321182584235a3908f"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-14aa0e0e30e32c3b03bb.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-bed5441c0313a2e73a8a.js"
   },
   {
     "url": "page-data/index/page-data.json",
@@ -94,7 +103,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/install-memcached/page-data.json",
-    "revision": "e5a49ca8801830214f3c98a76c2c8789"
+    "revision": "e5a7c104c0dfee45990976110df3bea9"
   },
   {
     "url": "page-data/install-php-pecl-modules/page-data.json",
@@ -110,14 +119,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/unblock-addresses/page-data.json",
-    "revision": "220d189ea60aa57e2b23ac93dd062a94"
+    "revision": "5d4658d0f24999e6ca08e3955510bcca"
   },
   {
     "url": "page-data/xdebug-usage/page-data.json",
     "revision": "2f23d01bd4a3501090ad4d83b26470ca"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-a76c4b76ef49b29172c9.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-1b5064b0b2657d818cc0.js"
   },
   {
     "url": "page-data/tag/ansible/page-data.json",
@@ -189,7 +198,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "36ffd53b0dd582276d8b9cab88d5d5cc"
+    "revision": "41061610b5e94ca529cf842700bd64cc"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -282,7 +291,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/apiscp-notes/app-03318f56c27ce6ab0ca2.js`))) {
+  if (!resources || !(await caches.match(`/apiscp-notes/app-0f2cc873412082925d2a.js`))) {
     return await fetch(event.request)
   }
 
