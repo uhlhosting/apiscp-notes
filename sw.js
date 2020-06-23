@@ -48,11 +48,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-0f2cc873412082925d2a.js"
+    "url": "app-f8655d633824b43c5265.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "ab33d76a985354de8236d356729b695f"
+    "revision": "774e429e8d3daba6ac7767e291b11ed8"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-3ecdc9640efe42acf30e.js"
@@ -63,7 +63,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "4a356ace97d30649c3e0c7e22d945668"
+    "revision": "9e30e860809d26077505f8c670098e52"
   },
   {
     "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-30b92da70ce0bfb7bdce.js"
@@ -103,7 +103,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/install-memcached/page-data.json",
-    "revision": "e5a7c104c0dfee45990976110df3bea9"
+    "revision": "ef223d044c706522b6474b7560d19b46"
   },
   {
     "url": "page-data/install-php-pecl-modules/page-data.json",
@@ -291,7 +291,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/apiscp-notes/app-0f2cc873412082925d2a.js`))) {
+  if (!resources || !(await caches.match(`/apiscp-notes/app-f8655d633824b43c5265.js`))) {
     return await fetch(event.request)
   }
 
