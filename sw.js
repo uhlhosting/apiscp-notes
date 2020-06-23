@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-d4aa3beac6b95f5690fc.js"
+    "url": "webpack-runtime-3643a7c2a821ad4191f0.js"
   },
   {
     "url": "framework-20335242239071f73386.js"
@@ -39,11 +39,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-58dc154adf3acbf297fa.js"
+    "url": "app-68f81416cf52fea47e94.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "74ade51c53f67de15981def5cc177578"
+    "revision": "097bf9937beb5222d4e927dd5a543082"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-06e676c3cd7b78941a0b.js"
@@ -54,10 +54,10 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "17bb37e9fb391dbe2c9d2687998d8ad0"
+    "revision": "60ec356db8b9c9a15e8b3fe81268932c"
   },
   {
-    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-8fe38229a9a2dec0d3df.js"
+    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-30b92da70ce0bfb7bdce.js"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-cca164f851d04e0d9e05.js"
@@ -75,109 +75,133 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/cloning-wp/page-data.json",
-    "revision": "ac62c63facf44f0e2b0cc6b041d7f784"
+    "revision": "8bb6bdb50b396a2a00cb5c9b5d781229"
   },
   {
     "url": "page-data/create-wp-redis-instance/page-data.json",
-    "revision": "67ae1544d3ac4940c9253cdf44109c1f"
+    "revision": "ab6a87a025389bc3b8e3417648d391b5"
+  },
+  {
+    "url": "page-data/dyndns/page-data.json",
+    "revision": "ab847413f8d06e321182584235a3908f"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-b3520037b68af7768459.js"
   },
   {
     "url": "page-data/index/page-data.json",
-    "revision": "d740f9b3ffa5522b67eb90448119b0c8"
+    "revision": "487dfafe412c7aad2fc6fb5487974cb7"
   },
   {
     "url": "page-data/install-memcached/page-data.json",
-    "revision": "c4e5d72ba8537ee02ecc06ca41e8e561"
+    "revision": "e5a49ca8801830214f3c98a76c2c8789"
   },
   {
     "url": "page-data/install-php-pecl-modules/page-data.json",
-    "revision": "a57b3c0dc53f24a0ad8c724dba8712e2"
+    "revision": "3d3613d285e54ec4191e36bf0ec5fb09"
   },
   {
     "url": "page-data/install-yarn/page-data.json",
-    "revision": "47c67002882bbac1d5e34a4a524266b0"
+    "revision": "cfcbeeb7e1357a5efd15cbb883cdc84d"
   },
   {
     "url": "page-data/run-playbook/page-data.json",
-    "revision": "34a3c01333edfc5b1441b1b08747a4ee"
+    "revision": "57dc5f17927d2761beddd3a2d8e083ab"
+  },
+  {
+    "url": "page-data/unblock-addresses/page-data.json",
+    "revision": "220d189ea60aa57e2b23ac93dd062a94"
+  },
+  {
+    "url": "page-data/xdebug-usage/page-data.json",
+    "revision": "2f23d01bd4a3501090ad4d83b26470ca"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-75fe09e4bcc3843df529.js"
   },
   {
     "url": "page-data/tag/ansible/page-data.json",
-    "revision": "517d13dae8bd1547a1f492f4e844e32f"
+    "revision": "097ae53232621eb01075d708ece3353a"
+  },
+  {
+    "url": "page-data/tag/api/page-data.json",
+    "revision": "7e401ee2a3edcb000abb64c607cbc79f"
   },
   {
     "url": "page-data/tag/bootstrapper/page-data.json",
-    "revision": "4113c3813c59ac8b7c12859027c20fb2"
+    "revision": "8d847aca908cd63ab466aa6c9b608ba7"
   },
   {
     "url": "page-data/tag/cache/page-data.json",
-    "revision": "ccece0fee688e3e4b946ddf3f8da5587"
+    "revision": "69993377d3bdc5172c9c5f51bb65a50e"
   },
   {
     "url": "page-data/tag/cpcmd/page-data.json",
-    "revision": "c68176467f19ddaacbc2fb61f16e1720"
+    "revision": "00d02184cf45824f49c83b5773dfdae3"
+  },
+  {
+    "url": "page-data/tag/dns/page-data.json",
+    "revision": "2449e7a4ef31838908cd559782e3f71e"
+  },
+  {
+    "url": "page-data/tag/firewall/page-data.json",
+    "revision": "d5ecf9b4c8d593683c0ce981ee7b5739"
   },
   {
     "url": "page-data/tag/memcached/page-data.json",
-    "revision": "5146250c9616ee948a957b16a64b1416"
+    "revision": "2652776f3ec23a1c831f30ae9b0f4f0b"
   },
   {
     "url": "page-data/tag/modules/page-data.json",
-    "revision": "93721f2ddb36ebd6abe59de349a1985e"
+    "revision": "a0d4efe4f39f0a6640d688c27f093159"
   },
   {
     "url": "page-data/tag/nodejs/page-data.json",
-    "revision": "c67ed828e043ac399f4e95681c82a13a"
+    "revision": "88fc8a36a6a9dd7b0add36032844b5b3"
   },
   {
     "url": "page-data/tag/optimizations/page-data.json",
-    "revision": "eb470bbc53740feb9f336bddf19c47fe"
+    "revision": "c2fffa4c6cf9468fab9efca79f6f6faa"
   },
   {
     "url": "page-data/tag/php/page-data.json",
-    "revision": "ff31866905c7d313b9db3a58602da537"
+    "revision": "b09c0e228c6b69a8f4bc626763ccfb88"
   },
   {
     "url": "page-data/tag/playbook/page-data.json",
-    "revision": "254ab21ca15f6acb2485fa9216fc1900"
+    "revision": "e2dd9950c7009bbbd1a4762f103eedd4"
   },
   {
     "url": "page-data/tag/redis/page-data.json",
-    "revision": "5721ab66091eacc2d49702501825cdda"
+    "revision": "6e1871facea031db946d1167ffbdc869"
   },
   {
     "url": "page-data/tag/wordpress/page-data.json",
-    "revision": "7337b448667af459027e8855ffcc75ce"
+    "revision": "1255c5082f42bb5ce4b0b3396cf1b1c5"
   },
   {
     "url": "page-data/tag/wp-cli/page-data.json",
-    "revision": "c5b7342469144f7c495416e1a2f48435"
+    "revision": "6fb9a1026bcb16338a3ee1da5ba8cb85"
   },
   {
     "url": "page-data/tag/yarn/page-data.json",
-    "revision": "0ea9b3cbf85bd11e78221ca106265b5b"
+    "revision": "8bb2fc450b710782d3e28070d3ebccda"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "36ffd53b0dd582276d8b9cab88d5d5cc"
+    "revision": "41061610b5e94ca529cf842700bd64cc"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\/page-data\/app-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
-importScripts(`idb-keyval-3.2.0-iife.min.js`)
+
+importScripts(`idb-keyval-iife.min.js`)
 
 const { NavigationRoute } = workbox.routing
 
@@ -258,7 +282,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/apiscp-notes/app-58dc154adf3acbf297fa.js`))) {
+  if (!resources || !(await caches.match(`/apiscp-notes/app-68f81416cf52fea47e94.js`))) {
     return await fetch(event.request)
   }
 
