@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-3643a7c2a821ad4191f0.js"
+    "url": "webpack-runtime-f793659543724c7bba68.js"
   },
   {
     "url": "framework-20335242239071f73386.js"
@@ -39,11 +39,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
-    "url": "app-68f81416cf52fea47e94.js"
+    "url": "app-03318f56c27ce6ab0ca2.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "097bf9937beb5222d4e927dd5a543082"
+    "revision": "41b7205e9cc71b25d778759acb4aa0e7"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-06e676c3cd7b78941a0b.js"
@@ -54,13 +54,13 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "60ec356db8b9c9a15e8b3fe81268932c"
+    "revision": "49e8754e6678c624457dd36e2333ab78"
   },
   {
-    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-30b92da70ce0bfb7bdce.js"
+    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-b4f2e2025c06785a7053.js"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-cca164f851d04e0d9e05.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-0776de173bf2cb38972a.js"
   },
   {
     "url": "page-data/404/page-data.json",
@@ -71,7 +71,7 @@ self.__precacheManifest = [
     "revision": "097a0308fc1b1a1fc37e774650450f9f"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-791afeae18a12a5318d4.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-8a05159c52c8fb6d0d24.js"
   },
   {
     "url": "page-data/cloning-wp/page-data.json",
@@ -86,7 +86,7 @@ self.__precacheManifest = [
     "revision": "ab847413f8d06e321182584235a3908f"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-b3520037b68af7768459.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-14aa0e0e30e32c3b03bb.js"
   },
   {
     "url": "page-data/index/page-data.json",
@@ -117,7 +117,7 @@ self.__precacheManifest = [
     "revision": "2f23d01bd4a3501090ad4d83b26470ca"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-75fe09e4bcc3843df529.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-a76c4b76ef49b29172c9.js"
   },
   {
     "url": "page-data/tag/ansible/page-data.json",
@@ -189,7 +189,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "41061610b5e94ca529cf842700bd64cc"
+    "revision": "36ffd53b0dd582276d8b9cab88d5d5cc"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -282,7 +282,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/apiscp-notes/app-68f81416cf52fea47e94.js`))) {
+  if (!resources || !(await caches.match(`/apiscp-notes/app-03318f56c27ce6ab0ca2.js`))) {
     return await fetch(event.request)
   }
 
