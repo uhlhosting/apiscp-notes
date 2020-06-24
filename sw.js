@@ -49,7 +49,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "08dc5afb8f7adb3bd863af4f81a63002"
+    "revision": "6cd8dcc59f4ba0ac5e447cd27750d1e1"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-3ecdc9640efe42acf30e.js"
@@ -66,7 +66,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "fda70cd786fc027b5a1800dfaeb180c1"
+    "revision": "f8a2012fbebc27fa2ecbeefe92bf7985"
   },
   {
     "url": "page-data/404.html/page-data.json",
@@ -77,15 +77,15 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/cloning-wp/page-data.json",
-    "revision": "61f92d48dfea78b9a95fe653c19b2d5a"
+    "revision": "527da7bdba722585e922c2b497848bc2"
   },
   {
     "url": "page-data/create-wp-redis-instance/page-data.json",
-    "revision": "37726411bbee3286bed0180325c56d82"
+    "revision": "9daac014e5dc3f2eb7a46a7ea0c03814"
   },
   {
     "url": "page-data/dyndns/page-data.json",
-    "revision": "d5127d7c1b537a48b24899a629e3a17d"
+    "revision": "657129c313aea54482f01e4fc32840aa"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-d0ca65d67679da87953b.js"
@@ -96,11 +96,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/install-memcached/page-data.json",
-    "revision": "c92bda016aa07b0cd20bf1c9a73d4b3f"
+    "revision": "b771991580c1ae0c605689268df80be0"
   },
   {
     "url": "page-data/install-php-pecl-modules/page-data.json",
-    "revision": "a66673f5d201c28f0d391da1e2f9d644"
+    "revision": "f9886e84cbd05bc39dbb7a7283232544"
   },
   {
     "url": "page-data/install-yarn/page-data.json",
@@ -284,7 +284,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-efa6153994fa903d1985.js`))) {
+  if (!resources || !(await caches.match(`/app-d2fb273c941a7b585302.js`))) {
     return await fetch(event.request)
   }
 
