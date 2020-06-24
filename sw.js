@@ -49,7 +49,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "2bb22449ac7fc71c9e9c5f2e95ac7926"
+    "revision": "7615a72696ca8585c84eca53ecf2b100"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-3ecdc9640efe42acf30e.js"
@@ -66,7 +66,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "47196c057ba93734f5d2c4936a0a5938"
+    "revision": "aa5bc2cefa6d363156273b006ac0207b"
   },
   {
     "url": "page-data/404.html/page-data.json",
@@ -77,15 +77,15 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/cloning-wp/page-data.json",
-    "revision": "769168fdfe7f433dc4fcfb30a75be73e"
+    "revision": "5ac2a93c4fd7d0d1eba7b7b59dd2a2c1"
   },
   {
     "url": "page-data/create-wp-redis-instance/page-data.json",
-    "revision": "ab7fd96c7b82981c385636c9530ffb62"
+    "revision": "45561f18483c1afca48167ced812c34b"
   },
   {
     "url": "page-data/dyndns/page-data.json",
-    "revision": "afbf18e52d9db972c3e3e4c8238abac6"
+    "revision": "62a3e6d8a5a739451795404e41489c4e"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-9ed87d747910f6265292.js"
@@ -284,7 +284,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-527d109db6a1e614940a.js`))) {
+  if (!resources || !(await caches.match(`/app-28dbb16503c6dcb29c81.js`))) {
     return await fetch(event.request)
   }
 
