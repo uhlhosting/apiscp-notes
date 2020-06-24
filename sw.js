@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-a2bf4217c488efa8d5d4.js"
+    "url": "webpack-runtime-8de0ae948ed94940f72b.js"
   },
   {
     "url": "framework-9fe058f4359556db0d38.js"
@@ -49,13 +49,13 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "7615a72696ca8585c84eca53ecf2b100"
+    "revision": "08dc5afb8f7adb3bd863af4f81a63002"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-3ecdc9640efe42acf30e.js"
   },
   {
-    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-fa77db68ad047af51b50.js"
+    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-a1db964a34932b9ca4d3.js"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-8591f6d4154a6c6acbc0.js"
@@ -66,128 +66,128 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "aa5bc2cefa6d363156273b006ac0207b"
+    "revision": "fda70cd786fc027b5a1800dfaeb180c1"
   },
   {
     "url": "page-data/404.html/page-data.json",
     "revision": "097a0308fc1b1a1fc37e774650450f9f"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-7e316c625febd07b7aa0.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-283f4fe298b1ec725286.js"
   },
   {
     "url": "page-data/cloning-wp/page-data.json",
-    "revision": "5ac2a93c4fd7d0d1eba7b7b59dd2a2c1"
+    "revision": "61f92d48dfea78b9a95fe653c19b2d5a"
   },
   {
     "url": "page-data/create-wp-redis-instance/page-data.json",
-    "revision": "45561f18483c1afca48167ced812c34b"
+    "revision": "37726411bbee3286bed0180325c56d82"
   },
   {
     "url": "page-data/dyndns/page-data.json",
-    "revision": "62a3e6d8a5a739451795404e41489c4e"
+    "revision": "d5127d7c1b537a48b24899a629e3a17d"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-9ed87d747910f6265292.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-d0ca65d67679da87953b.js"
   },
   {
     "url": "page-data/index/page-data.json",
-    "revision": "629b1cdb1cd068fc3e88cd58c5d711d4"
+    "revision": "1c94401fb1479a2be3d945ff419f7b88"
   },
   {
     "url": "page-data/install-memcached/page-data.json",
-    "revision": "fd0e011f874a6abdc48b98b997cbfca2"
+    "revision": "c92bda016aa07b0cd20bf1c9a73d4b3f"
   },
   {
     "url": "page-data/install-php-pecl-modules/page-data.json",
-    "revision": "8a39364088ce38c13585c37c58fdd5b4"
+    "revision": "a66673f5d201c28f0d391da1e2f9d644"
   },
   {
     "url": "page-data/install-yarn/page-data.json",
-    "revision": "0dc621afc815ec105b1e8df120a1702f"
+    "revision": "1e9c97471dcc09468252196bc1a1249c"
   },
   {
     "url": "page-data/run-playbook/page-data.json",
-    "revision": "6f00a394aec89e04c1a306af8a83ab45"
+    "revision": "48225f40e5d13f6a6838d6aa0556e3d8"
   },
   {
     "url": "page-data/unblock-addresses/page-data.json",
-    "revision": "2d45bfbd175c56d105e74d48294e709d"
+    "revision": "312975944791a39a3f17e2421354a7e2"
   },
   {
     "url": "page-data/xdebug-usage/page-data.json",
-    "revision": "e6bbf5f58d2929c752dfeb764cae573c"
+    "revision": "5e02ebc6bb92f362b3e791d605ab18c5"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-7d5a9f4f8a96b0c7e8ad.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-91033ac48f0ff912f6e9.js"
   },
   {
     "url": "page-data/tag/ansible/page-data.json",
-    "revision": "d19eb8b18c24d9fe04549b0a8199810a"
+    "revision": "cc2be7f16034a2312a30eae714f9f524"
   },
   {
     "url": "page-data/tag/api/page-data.json",
-    "revision": "814008100acd4bfaefd9181a1258c30d"
+    "revision": "2f27df71a8109b692fe1fca71395b5ad"
   },
   {
     "url": "page-data/tag/bootstrapper/page-data.json",
-    "revision": "96d4781a2df5c08e7642cc0f28a81187"
+    "revision": "91ca7f2c3f059c223bada172442aee31"
   },
   {
     "url": "page-data/tag/cache/page-data.json",
-    "revision": "c3db6d235a5c2efdb307ed4c5cc3b4d0"
+    "revision": "4c0c56419f4d9942500cc741d2f28351"
   },
   {
     "url": "page-data/tag/cpcmd/page-data.json",
-    "revision": "906136362607e3572505f2f214cddb47"
+    "revision": "c7055e204a116fe502c5f0bda3785a6b"
   },
   {
     "url": "page-data/tag/dns/page-data.json",
-    "revision": "bcb71f291204a2e4a218c018a3b64cc6"
+    "revision": "7ba0c6158c9dbc98a23b4c5dc39727bf"
   },
   {
     "url": "page-data/tag/firewall/page-data.json",
-    "revision": "f0e0412a6a36b29328047933cac215ff"
+    "revision": "25f883557b0bedae6fa2c0d4aec73129"
   },
   {
     "url": "page-data/tag/memcached/page-data.json",
-    "revision": "c6b881dee5f7ade23cb64de4bd56f5bd"
+    "revision": "b307037eef578f70ad404594d77ed08f"
   },
   {
     "url": "page-data/tag/modules/page-data.json",
-    "revision": "401b75df74e6edb42cad40228609f620"
+    "revision": "94433067cc7fc6d7840900c3097c33e9"
   },
   {
     "url": "page-data/tag/nodejs/page-data.json",
-    "revision": "75468e4d64d70aaec92f96274be4e838"
+    "revision": "e68f44911294ecda0d3904ffc013d480"
   },
   {
     "url": "page-data/tag/optimizations/page-data.json",
-    "revision": "62388c938dbe3ee6716dbd8cd423fc8d"
+    "revision": "1f68dd33ac54aabed150f45210b6b840"
   },
   {
     "url": "page-data/tag/php/page-data.json",
-    "revision": "a7eb3854c36031024f761fbccfa8d14f"
+    "revision": "06b1743820cf4dba28c07ca3b80856d7"
   },
   {
     "url": "page-data/tag/playbook/page-data.json",
-    "revision": "cbb2135f9ea074dd84eb3e2ef6bf81f9"
+    "revision": "f38286d6ac73afdea67af6e7a47de209"
   },
   {
     "url": "page-data/tag/redis/page-data.json",
-    "revision": "052b1fad232396a492a640405ce8b6cb"
+    "revision": "a6c8debb0daa3a06508b41c30de9d730"
   },
   {
     "url": "page-data/tag/wordpress/page-data.json",
-    "revision": "6d4fe6a503fb669b4e16075cb33859b8"
+    "revision": "27aa7596c2247c64272e9f25e2640fba"
   },
   {
     "url": "page-data/tag/wp-cli/page-data.json",
-    "revision": "ce97b5e0f537cf7c8211674d45a7ebf6"
+    "revision": "e9da15e46fb4910e276e66e2500efa46"
   },
   {
     "url": "page-data/tag/yarn/page-data.json",
-    "revision": "78488db96e10f80f33b2407099e7b905"
+    "revision": "c2ec5211c42cb423213f9bdfa78470a5"
   },
   {
     "url": "manifest.webmanifest",
@@ -284,7 +284,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-28dbb16503c6dcb29c81.js`))) {
+  if (!resources || !(await caches.match(`/app-efa6153994fa903d1985.js`))) {
     return await fetch(event.request)
   }
 
