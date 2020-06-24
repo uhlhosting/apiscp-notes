@@ -27,13 +27,13 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8bb30fd4d26d0e1e24b0.js"
+    "url": "webpack-runtime-a2bf4217c488efa8d5d4.js"
   },
   {
     "url": "framework-9fe058f4359556db0d38.js"
   },
   {
-    "url": "d57d79ab-7c8246a08fbe2617b54f.js"
+    "url": "d57d79ab-4243d0eccb30f9bc167f.js"
   },
   {
     "url": "c322df3a-ced6e0ccc9168bbf79e6.js"
@@ -42,23 +42,23 @@ self.__precacheManifest = [
     "url": "ff39441c-1e7d0a230315c3c69501.js"
   },
   {
-    "url": "29107295-9ea4360ea8ec8d33e511.js"
+    "url": "29107295-8bcee9bdde434b61f4ab.js"
   },
   {
     "url": "1bfc9850-f297dd4d176532a1baa1.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "d962b979aace2f6973d4ce2c90aef27d"
+    "revision": "7615a72696ca8585c84eca53ecf2b100"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-3ecdc9640efe42acf30e.js"
   },
   {
-    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-9e2cad50ba05b8933319.js"
+    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-fa77db68ad047af51b50.js"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-d2eea123e5a5488fb7bc.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-8591f6d4154a6c6acbc0.js"
   },
   {
     "url": "page-data/404/page-data.json",
@@ -66,14 +66,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "081a0b50b06c1594d085fda013e2ce16"
+    "revision": "aa5bc2cefa6d363156273b006ac0207b"
   },
   {
     "url": "page-data/404.html/page-data.json",
     "revision": "097a0308fc1b1a1fc37e774650450f9f"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-e905357807508dd4a39f.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-7e316c625febd07b7aa0.js"
   },
   {
     "url": "page-data/cloning-wp/page-data.json",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "revision": "62a3e6d8a5a739451795404e41489c4e"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-bed5441c0313a2e73a8a.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-9ed87d747910f6265292.js"
   },
   {
     "url": "page-data/index/page-data.json",
@@ -119,7 +119,7 @@ self.__precacheManifest = [
     "revision": "e6bbf5f58d2929c752dfeb764cae573c"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-1b5064b0b2657d818cc0.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-7d5a9f4f8a96b0c7e8ad.js"
   },
   {
     "url": "page-data/tag/ansible/page-data.json",
@@ -198,12 +198,12 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\/page-data\/app-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
-importScripts(`idb-keyval-3.2.0-iife.min.js`)
+
+importScripts(`idb-keyval-iife.min.js`)
 
 const { NavigationRoute } = workbox.routing
 
@@ -284,7 +284,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-f3d2843867bd747c2b70.js`))) {
+  if (!resources || !(await caches.match(`/app-28dbb16503c6dcb29c81.js`))) {
     return await fetch(event.request)
   }
 
