@@ -92,117 +92,125 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/cloning-wp/page-data.json",
-    "revision": "74de15dc30ddd1a36d730ba257c3ae2e"
+    "revision": "a7ac9e00bebec769025954067dcb3973"
   },
   {
     "url": "page-data/create-wp-redis-instance/page-data.json",
-    "revision": "533aeeb69042ed7aeb60ae35afc7db7c"
+    "revision": "ff637b559b9dc9f586ba5393458290ef"
+  },
+  {
+    "url": "page-data/disable-ipv6/page-data.json",
+    "revision": "14b6e925ed4726360aef222ab622b9dd"
   },
   {
     "url": "page-data/dyndns/page-data.json",
-    "revision": "0a0d59049e78d12391a8d874389d0a39"
+    "revision": "d1d59e2df613e4f7b9a16cb9023b7e3f"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-c95dfb19c411084cf8ea.js"
   },
   {
     "url": "page-data/index/page-data.json",
-    "revision": "726a624bec5cdebd919b253dafa5081b"
+    "revision": "b9135b5dec1acc3955bfff32f47af22e"
   },
   {
     "url": "page-data/install-memcached/page-data.json",
-    "revision": "7af3ec13707656eed25123cd01e77d8b"
+    "revision": "57c5575ad257b345ae10b2b16daa603a"
   },
   {
     "url": "page-data/install-php-pecl-modules/page-data.json",
-    "revision": "c7173b7a796065d3ea92ea30440acba9"
+    "revision": "8840587a3a2fd0afccb816c0e96274fb"
   },
   {
     "url": "page-data/install-yarn/page-data.json",
-    "revision": "5700ab6cb247f6a5f4a9f453774da00a"
+    "revision": "f31a4a08f7ce5304ab48234dd9f53336"
   },
   {
     "url": "page-data/run-playbook/page-data.json",
-    "revision": "2f2f9035f33fdec2846220ded0808d3a"
+    "revision": "48b94cb3a6a5f7451ed76dbb9e91e354"
   },
   {
     "url": "page-data/unblock-addresses/page-data.json",
-    "revision": "de6f60289194c4cc9cf082e3b23057b0"
+    "revision": "b857ae71ddf960e00f871dbfbdbbbc12"
   },
   {
     "url": "page-data/xdebug-usage/page-data.json",
-    "revision": "2e05b54b0dff00a86e5f719f57881d60"
+    "revision": "342eb7f867036b139074d14c1a510ace"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-6d70bdab74e3e84d2adb.js"
   },
   {
     "url": "page-data/tag/ansible/page-data.json",
-    "revision": "abf4292f552161d8312374ee4301adf6"
+    "revision": "799d8f4e0c4ea4ab63bc94bb7d60b3df"
   },
   {
     "url": "page-data/tag/api/page-data.json",
-    "revision": "2786a91c7759a755bd6c976dfb248381"
+    "revision": "0326b847b04f5623bb1f7978f68c30f3"
   },
   {
     "url": "page-data/tag/bootstrapper/page-data.json",
-    "revision": "905a69d230f603012d4ebc6b6b80c400"
+    "revision": "336942d246b35d3c366abcbea0982114"
   },
   {
     "url": "page-data/tag/cache/page-data.json",
-    "revision": "de7d8ae62a077e658ad2c3be8e2c0b05"
+    "revision": "dfe950f073803e9d26a071eee6b79dae"
   },
   {
     "url": "page-data/tag/cpcmd/page-data.json",
-    "revision": "248dc57615090cb49f2d7e36ea741731"
+    "revision": "60b1410c877e4ff616587665c446d70f"
   },
   {
     "url": "page-data/tag/dns/page-data.json",
-    "revision": "19705edec1d2ca78734d9bf68daccd06"
+    "revision": "c213865d9bb2f2ce5144b0c9b2c43c9c"
   },
   {
     "url": "page-data/tag/firewall/page-data.json",
-    "revision": "8b415209bdb1e2d3150a8600334892b0"
+    "revision": "48528ef18342796ed302b06b14c8e5d5"
   },
   {
     "url": "page-data/tag/memcached/page-data.json",
-    "revision": "ecaf2eb4fc4d36bddbe2c448ab1e0fc4"
+    "revision": "06cb4e69813562b294831ea24e468f5c"
   },
   {
     "url": "page-data/tag/modules/page-data.json",
-    "revision": "ee43ba70485cbe813ed9f2c9d4220449"
+    "revision": "ff5526964f0be1f0205320ebe208b14a"
+  },
+  {
+    "url": "page-data/tag/network/page-data.json",
+    "revision": "0a3f62a94030bde6797e825d7ab0d63f"
   },
   {
     "url": "page-data/tag/nodejs/page-data.json",
-    "revision": "1864382f9f1d8116542d210b1db7694d"
+    "revision": "ca3a62a8e28341e348736fb31a41df7a"
   },
   {
     "url": "page-data/tag/optimizations/page-data.json",
-    "revision": "287ecfd26f3e9888a1466e21dda698ad"
+    "revision": "b9b0c7c7d4902de10b4b966acdb9db0f"
   },
   {
     "url": "page-data/tag/php/page-data.json",
-    "revision": "7f8e0ac33f2b34aaca7a63353537979d"
+    "revision": "5016dcec4f36345782ae0cedb7988974"
   },
   {
     "url": "page-data/tag/playbook/page-data.json",
-    "revision": "b9feae4ca459b795a43a4b1147889f17"
+    "revision": "f5491b943ce8000ffd19ffe31ff67667"
   },
   {
     "url": "page-data/tag/redis/page-data.json",
-    "revision": "48147e98242e315d59362a635c4bbf77"
+    "revision": "1424f2b507f4d1c1f03b1b1b26a40e70"
   },
   {
     "url": "page-data/tag/wordpress/page-data.json",
-    "revision": "54812c11d51069a0848565e5ef644785"
+    "revision": "e7bf91c686f72e6a747921635cfe11a1"
   },
   {
     "url": "page-data/tag/wp-cli/page-data.json",
-    "revision": "84e06336663bafce6c2021f2744e03b8"
+    "revision": "ba9ebff506591e7c8be1eaab051690ca"
   },
   {
     "url": "page-data/tag/yarn/page-data.json",
-    "revision": "03350cb1900190eb98f3f7ee49c2d84b"
+    "revision": "b4805b1c3d6a2556998882a86a6da8dd"
   },
   {
     "url": "manifest.webmanifest",
