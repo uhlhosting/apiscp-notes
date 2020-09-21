@@ -27,44 +27,41 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-46678df651e286a41c80.js"
+    "url": "webpack-runtime-87f76ea735d6a17d9001.js"
   },
   {
-    "url": "framework-5ac5fe15e446442d2191.js"
+    "url": "framework-4f7388a1aba29813794a.js"
   },
   {
-    "url": "d57d79ab-0382d98ab85fb7deed54.js"
+    "url": "d57d79ab-642b7b7900e7a64c1326.js"
   },
   {
-    "url": "c322df3a-5f632ef7941949fb2955.js"
+    "url": "c322df3a-97400b27e541dd22d873.js"
   },
   {
-    "url": "ff39441c-bc9d3b40941c8833a14f.js"
+    "url": "ff39441c-00b3eaf0c8225ed1b373.js"
   },
   {
-    "url": "7b7ac2bb-2e087f6e871fe265d813.js"
+    "url": "7b7ac2bb-aeb8e4323be1e136095c.js"
   },
   {
-    "url": "29107295-d794be6fa9134a630cd5.js"
-  },
-  {
-    "url": "app-892455282bd3417c911b.js"
+    "url": "app-4203684c94e98bfcb03c.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "c0ef786c1542f97543b64da94a08e656"
+    "revision": "42935017eee14236396708e413fcd730"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-e8e7fbb006d57d32ed40.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-3ecdc9640efe42acf30e.js"
   },
   {
-    "url": "polyfill-7036f4991e8cc7b15bf2.js"
+    "url": "polyfill-fe0721619ea5f6cf52ab.js"
   },
   {
-    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-b049269422541e408c2f.js"
+    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-95b457c284bb8fe1b46b.js"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-f207f2df0df27f9819b9.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-8591f6d4154a6c6acbc0.js"
   },
   {
     "url": "page-data/404/page-data.json",
@@ -88,136 +85,136 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "7565875eb6c3366de1542f2bffb6d09e"
+    "revision": "65a7551ce90751101818a652da6c439d"
   },
   {
     "url": "page-data/404.html/page-data.json",
     "revision": "2bee3dd8ea505b31a38506c5052e0e90"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-2468805542e9f1379586.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-note-js-c60d7a569e64dcd6de7b.js"
   },
   {
     "url": "page-data/cloning-wp/page-data.json",
-    "revision": "d2b0d64f56416099dff0576648bba00f"
+    "revision": "2cc94e412d9422845c471cd4c461a87c"
   },
   {
     "url": "page-data/create-wp-redis-instance/page-data.json",
-    "revision": "ab0f2e563ec2662b94474b848e5c954f"
+    "revision": "08724f7df36ce753a328ef84a0dce7f6"
   },
   {
     "url": "page-data/disable-ipv6/page-data.json",
-    "revision": "2f91e793052f64ded064bccaceb71bfb"
+    "revision": "5195d6de8b37a80092cac63dbb73bc82"
   },
   {
     "url": "page-data/dyndns/page-data.json",
-    "revision": "274c710be42083fe37530ee0458c7c66"
+    "revision": "4f5e09fc1504ad4e962884cc873f13a5"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-c95dfb19c411084cf8ea.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-b5251a8c695b75917e42.js"
   },
   {
     "url": "page-data/index/page-data.json",
-    "revision": "e2dc7e3bf5ecf752deb5acae51a2316f"
+    "revision": "691fd7c55348ed72924b881adde02aee"
   },
   {
     "url": "page-data/install-memcached/page-data.json",
-    "revision": "d45fa9f0b475491a4f29bd144739f0de"
+    "revision": "e33546f51d216a66e188728b52a3608f"
   },
   {
     "url": "page-data/install-php-pecl-modules/page-data.json",
-    "revision": "e941a25fbf2ee4dcd6e7de0ecafe5b22"
+    "revision": "fe2187fcbcb826fe10eab1afb36808bf"
   },
   {
     "url": "page-data/install-yarn/page-data.json",
-    "revision": "36933974d2515df68eb40ed940333d8f"
+    "revision": "9d8e507d3365991a85ac88d75ac702df"
   },
   {
     "url": "page-data/run-playbook/page-data.json",
-    "revision": "e15b25c928b30f0b8ee620060dc02c47"
+    "revision": "f0a984d072489137072faaef2bd3acaa"
   },
   {
     "url": "page-data/unblock-addresses/page-data.json",
-    "revision": "71f0327bc91ace3a9b90eabde76b6e40"
+    "revision": "5bc3375f3b69ea24206f11b8f1a6e9b6"
   },
   {
     "url": "page-data/xdebug-usage/page-data.json",
-    "revision": "f24356202fd2b772e57bd4608d70418c"
+    "revision": "7f3bc48a3e9be45e8af8f3f58d70832a"
   },
   {
-    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-6d70bdab74e3e84d2adb.js"
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-bdb2d2e74ba727fb7d62.js"
   },
   {
     "url": "page-data/tag/ansible/page-data.json",
-    "revision": "0bcae0631cfc61ea5868429fe2d61913"
+    "revision": "dd87b325b48b6fa49af006c2f00135c7"
   },
   {
     "url": "page-data/tag/api/page-data.json",
-    "revision": "b3bbcd91b49cceb2441978329d9e0442"
+    "revision": "8ad52e7e95a895709bd1bcfec56cdcbe"
   },
   {
     "url": "page-data/tag/bootstrapper/page-data.json",
-    "revision": "dc169a8edff14cadee21fa6c7d78ecd1"
+    "revision": "47ba074de20a18b6fd10aff08defe573"
   },
   {
     "url": "page-data/tag/cache/page-data.json",
-    "revision": "fa8dd9244b888f933d9712d009b83ec8"
+    "revision": "23f76046eb9e6ae3675b0e0267c1561d"
   },
   {
     "url": "page-data/tag/cpcmd/page-data.json",
-    "revision": "418cb3ccb2e9556c148c2d40b5ec3f88"
+    "revision": "7b9cf8b7cebeff431a096e7c7c93c9c5"
   },
   {
     "url": "page-data/tag/dns/page-data.json",
-    "revision": "d757ced0b2066b6db0f90ba22ca6ab13"
+    "revision": "fa5838f5691137c343d928a9565dd53b"
   },
   {
     "url": "page-data/tag/firewall/page-data.json",
-    "revision": "53ad1ca7bd981f803780e72b37a505bf"
+    "revision": "b329c4c20611c988c3d1ee2025226df0"
   },
   {
     "url": "page-data/tag/memcached/page-data.json",
-    "revision": "1f7259699842baa63132f37457e3f62a"
+    "revision": "4ce1332947d034c2a3ca04f27591041a"
   },
   {
     "url": "page-data/tag/modules/page-data.json",
-    "revision": "5aea2446c0e9440dbcfb066dbd8c8024"
+    "revision": "94c763c683b37cd3bb38cad5297b772a"
   },
   {
     "url": "page-data/tag/network/page-data.json",
-    "revision": "4cda01f246865e6c48a5dc881f1fc2dd"
+    "revision": "bdc3a7d123e06c7df3a2241004259b78"
   },
   {
     "url": "page-data/tag/nodejs/page-data.json",
-    "revision": "72380e99aaca1b7228e54cfe936272b5"
+    "revision": "6bb109d83da9963f8af281b4084b36bb"
   },
   {
     "url": "page-data/tag/optimizations/page-data.json",
-    "revision": "5a372cf67aeb654683b5e11a5a024522"
+    "revision": "4922be3dedc5f051feb398c2612b6076"
   },
   {
     "url": "page-data/tag/php/page-data.json",
-    "revision": "d3fc8da1f67c0eea2253d320451ccaaf"
+    "revision": "2e877fbabf320d341f3771cec6a01038"
   },
   {
     "url": "page-data/tag/playbook/page-data.json",
-    "revision": "9593358fb4d1b1949f8954825c96e97c"
+    "revision": "7fc9531aa41aa1a23ba50f5375b6d855"
   },
   {
     "url": "page-data/tag/redis/page-data.json",
-    "revision": "e612a49579c39c797b7d435c712d0646"
+    "revision": "43aadd2bdca00b6274ae2a59c335ddbd"
   },
   {
     "url": "page-data/tag/wordpress/page-data.json",
-    "revision": "f85ba848af6353dc2ed79ab555e475d4"
+    "revision": "16b2d9b6bd1a32637014c77b9dda8cb0"
   },
   {
     "url": "page-data/tag/wp-cli/page-data.json",
-    "revision": "04bfef504f23e276f66572e4c3e5fc29"
+    "revision": "3f3e239ae5a75f72ba07dbada90b692e"
   },
   {
     "url": "page-data/tag/yarn/page-data.json",
-    "revision": "40c05c2cd6b8f3bb5dd7641b0c1d94d1"
+    "revision": "0868128d97455d55f571e53421efcd3d"
   },
   {
     "url": "manifest.webmanifest",
@@ -313,7 +310,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-892455282bd3417c911b.js`))) {
+  if (!resources || !(await caches.match(`/app-4203684c94e98bfcb03c.js`))) {
     return await fetch(event.request)
   }
 
