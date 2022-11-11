@@ -7,7 +7,7 @@
         <meta name="description" content="{{ $page->description ?? $page->siteDescription }}">
 
         <meta property="og:site_name" content="{{ $page->siteName }}"/>
-        <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
+        <meta property="og:title" content="{{ !empty($page->title) ? $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}"/>
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
         <meta property="og:image" content="/assets/images/apiscp-icon.png"/>
@@ -21,6 +21,7 @@
         @endif
 
         <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
+        <meta property="og:title" content="{{ isset($page->title) ? $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
 
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" href="/assets/images/apiscp-icon.png">
@@ -39,7 +40,7 @@
         @endif
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
+    <body class="flex flex-col justify-between min-h-screen bg-white text-gray-800 leading-normal font-sans">
         <header class="flex items-center shadow bg-white border-b h-24 mb-8 py-4" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
@@ -64,7 +65,7 @@
             @yield('body')
         </main>
 
-        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
         @stack('scripts')
 
